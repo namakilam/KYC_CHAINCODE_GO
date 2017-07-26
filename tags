@@ -1,12 +1,24 @@
 !_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+Address	/home/ubuntu/workspace/kyc/kyc_chaincode.go	/^type Address struct {$/;"	t	language:Go
 Address	/home/ubuntu/workspace/learn-chaincode/kyc/kyc_chaincode.go	/^type Address struct {$/;"	t	language:Go
+Customer	/home/ubuntu/workspace/kyc/kyc_chaincode.go	/^type Customer struct {$/;"	t	language:Go
 Customer	/home/ubuntu/workspace/learn-chaincode/kyc/kyc_chaincode.go	/^type Customer struct {$/;"	t	language:Go
+Init	/home/ubuntu/workspace/kyc/kyc_chaincode.go	/^func (t *SimpleChainCode) Init(stub shim.ChaincodeStubInterface) pb.Response {$/;"	f	language:Go
 Init	/home/ubuntu/workspace/learn-chaincode/kyc/kyc_chaincode.go	/^func (t *SimpleChainCode) Init(stub shim.ChaincodeStubInterface,function string, args []string) ([]byte, error) {$/;"	f	language:Go
+insertDataIntoLedger	/home/ubuntu/workspace/kyc/kyc_chaincode.go	/^func (t * SimpleChainCode) insertDataIntoLedger(stub shim.ChaincodeStubInterface, args []string) pb.Response {$/;"	f	language:Go
 insertDataIntoLedger	/home/ubuntu/workspace/learn-chaincode/kyc/kyc_chaincode.go	/^func (t * SimpleChainCode) insertDataIntoLedger(stub shim.ChaincodeStubInterface, args []string) ([]byte, error) {$/;"	f	language:Go
+Invoke	/home/ubuntu/workspace/kyc/kyc_chaincode.go	/^func (t *SimpleChainCode) Invoke(stub shim.ChaincodeStubInterface) pb.Response {$/;"	f	language:Go
 Invoke	/home/ubuntu/workspace/learn-chaincode/kyc/kyc_chaincode.go	/^func (t *SimpleChainCode) Invoke(stub shim.ChaincodeStubInterface, function string, args []string) ([]byte, error) {$/;"	f	language:Go
+main	/home/ubuntu/workspace/kyc/kyc_chaincode.go	/^func main()  {$/;"	f	language:Go
+main	/home/ubuntu/workspace/kyc/kyc_chaincode.go	/^package main$/;"	p	language:Go
 main	/home/ubuntu/workspace/learn-chaincode/kyc/kyc_chaincode.go	/^func main()  {$/;"	f	language:Go
 main	/home/ubuntu/workspace/learn-chaincode/kyc/kyc_chaincode.go	/^package main$/;"	p	language:Go
+Query	/home/ubuntu/workspace/kyc/kyc_chaincode.go	/^func (t *SimpleChainCode) Query(stub shim.ChaincodeStubInterface, function string, args []string) pb.Response {$/;"	f	language:Go
 Query	/home/ubuntu/workspace/learn-chaincode/kyc/kyc_chaincode.go	/^func (t *SimpleChainCode) Query(stub shim.ChaincodeStubInterface, function string, args []string) ([]byte, error) {$/;"	f	language:Go
+readDataFromLedger	/home/ubuntu/workspace/kyc/kyc_chaincode.go	/^func (t *SimpleChainCode) readDataFromLedger(stub shim.ChaincodeStubInterface, args []string) pb.Response {$/;"	f	language:Go
 readDataFromLedger	/home/ubuntu/workspace/learn-chaincode/kyc/kyc_chaincode.go	/^func (t *SimpleChainCode) readDataFromLedger(stub shim.ChaincodeStubInterface, args []string) ([]byte, error) {$/;"	f	language:Go
+readHistoryFromLedger	/home/ubuntu/workspace/kyc/kyc_chaincode.go	/^func (t *SimpleChainCode) readHistoryFromLedger(stub shim.ChaincodeStubInterface, args []string) pb.Response {$/;"	f	language:Go
+SimpleChainCode	/home/ubuntu/workspace/kyc/kyc_chaincode.go	/^type SimpleChainCode struct {$/;"	t	language:Go
 SimpleChainCode	/home/ubuntu/workspace/learn-chaincode/kyc/kyc_chaincode.go	/^type SimpleChainCode struct {$/;"	t	language:Go
+updateDataIntoLedger	/home/ubuntu/workspace/kyc/kyc_chaincode.go	/^func (t *SimpleChainCode) updateDataIntoLedger(stub shim.ChaincodeStubInterface, args[] string) pb.Response {$/;"	f	language:Go
 updateDataIntoLedger	/home/ubuntu/workspace/learn-chaincode/kyc/kyc_chaincode.go	/^func (t *SimpleChainCode) updateDataIntoLedger(stub shim.ChaincodeStubInterface, args[] string) ([]byte, error) {$/;"	f	language:Go
